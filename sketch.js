@@ -19,7 +19,7 @@ function draw() {
   
 function mousePressed() {
   fill(random(255), random(255), random(255), random(255));
-  noStroke();
+  //noStroke();
   var diameter = random(100);
   circle(mouseX, mouseY, diameter);
   // if (diameter < 35) {
